@@ -1,0 +1,25 @@
+# 如何提交你的修改
+
+* note: 对于已经会使用github的，请跳过该文档
+
+1. 首先需要注册github，并做一些基础的配置
+   参考http://www.runoob.com/w3cnote/git-guide.html
+
+2. clone project
+   进入命令行，执行
+   $ git clone https://github.com/CharlesWang/weddingInvitation.git
+   这样你将会在当前目录看到weddingInvitation目录
+
+3. 进入weddingInvitation目录，修改README.md
+   例如: 姓名为xx，电话为18888888888参加者，可以"### 参加者 XXX"下面增加一栏，如下
+   '''''''''''''''''''''''''''''''''''''''''''''''
+   ### 参加者 （姓名+电话）
+   xx 18888888888
+   '''''''''''''''''''''''''''''''''''''''''''''''
+
+4. 提交你的修改
+   $ git add README.md
+   $ git commit -m "gxgx from xx"
+   $ git push origin master
+
+如有任何问题，可以微信咨询 
